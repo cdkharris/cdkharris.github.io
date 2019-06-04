@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Camilla D. K. Harris | Space Physics, Planetary Science, and Moon-Magnetosphere Interaction"
+title: "Space Physics, Planetary Science, and Moon-Magnetosphere Interaction"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
