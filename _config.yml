@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Camilla D. K. Harris"
   avatar           : 
-  bio              : "I am a PhD Candidate in the Department of Climate and Space Sciences and Engineering at the University of Michigan. I study the moon Europa and its interaction with Jupiter's magnetosphere through multifluid MHD simulations."
+  bio              : "I am a PhD Candidate in the Department of Climate and Space Sciences and Engineering at the University of Michigan." # I study the moon Europa and its interaction with Jupiter's magnetosphere through multifluid MHD simulations."
   location         : "Ann Arbor, MI"
   employer         :
   pubmed           : 
