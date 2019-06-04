@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Camilla D. K. Harris | Space Physics, Planetary Science, and Moon-Magnetosphere Interaction"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
