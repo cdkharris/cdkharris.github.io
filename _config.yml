@@ -11,9 +11,9 @@ title                    : "Camilla D. K. Harris"
 title_separator          : "-"
 name                     : &name "Camilla D. K. Harris"
 description              : &description "PhD Candidate at the University of Michigan"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://cdkharris.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "https://cdkharris.github.io"
+repository               : "cdkharris/cdkharris.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Camilla D. K. Harris"
   avatar           : 
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "I am a PhD Candidate in the Department of Climate and Space Sciences and Engineering at the University of Michigan. I study the moon Europa and its interaction with Jupiter's magnetosphere through multifluid MHD simulations."
   location         : "Ann Arbor, MI"
   employer         :
   pubmed           : 
@@ -103,7 +103,7 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0001-5045-8827"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
