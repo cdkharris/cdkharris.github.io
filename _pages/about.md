@@ -8,43 +8,37 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+I am a graduate student developing multi-fluid magnetohydrodynamic (MHD) simulations for Europa's plasma interaction with Jupiter's magnetosphere with my advisors, [Xianzhe Jia](https://clasp.engin.umich.edu/people/xianzhe-jia/) and [James A. Slavin](https://clasp.engin.umich.edu/people/james-a-slavin/). Interaction between Jupiter's magnetospheric plasma and Europa's ionospheric plasma generates current systems and magnetic fields near the moon. With multi-fluid MHD we can represent the most important plasma populations in the interaction and better understand the role they play in producing these magnetic signatures. <strong>The goal for my dissertation research is to develop a comprehensive model for Europa's variable plasma interaction which can be used to study Europa's space environment.</strong>
 
-A data-driven personal website
+Europa: a small moon in a big magnetosphere
 ======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+[Jupiter](https://solarsystem.nasa.gov/planets/jupiter/overview/) orbits the Sun from 490 million miles away, 5 times the distance between the Sun and the Earth, completing an orbit once every 12 years on Earth. Just as the planets orbit the Sun, a host of moons orbits Jupiter, the largest of which are the Galilean moons Io, Europa, Ganymede and Callisto. Europa orbits Jupiter at 419 thousand miles, or 9.4 Jupiter Radii (R<sub>J</sub>).
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+Jupiter is the biggest and the strongest planet in the Solar System in many ways, but especially with respect to plasma and magnetic fields. Jupiter produces a magnetic moment 20,000 times stronger than the Earth’s geomagnetic moment. The influence of this magnetic field extends outward from Jupiter, forming a roughly tear-drop shaped region called the magnetosphere. The shape of the magnetosphere is governed by the solar wind breaking against Jupiter's magnetic field and plasma. Jupiter’s magnetosphere can be 100s of R<sub>J</sub> wide and can extend 7,000 R<sub>J</sub> long, long enough to stretch out to the orbit of Saturn.
 
-Getting started
+The Galilean moons orbit within the magnetosphere. Io, the innermost moon orbiting at 5.9 R<sub>J</sub>, is pock-marked with volcanoes that release 1 ton of material into the magnetosphere every second. Europa, at 9.4 R<sub>J</sub>, is bathed in the plasma generated from this volcanic ejecta.
+
+Europa is the smallest of the Galilean moons and is largely believed to possess a subsurface global ocean beneath its outer layer of ice. Because the ocean has not been directly observed the thickness of the icy shell and the depth and salinity of the ocean are not yet known. Evidence of the ocean mainly comes from observations of the magnetic fields near Europa by [the Galileo Mission](https://solarsystem.nasa.gov/missions/galileo/in-depth/).
+
+Modeling Europa’s space environment
+------
+Space plasmas are composed of electrically charged particles suspended on the magnetic fields that fill the Solar system. At Europa these charged particles are typically electrons and ions of Oxygen and Sulfur, with other species present in much smaller quantities. In addition to the plasma from Jupiter’s magnetosphere, cooler plasma is generated at Europa from Europa’s atmosphere. Magnetospheric washes over Europa to swirl and break against this cooler plasma. The interaction between these different plasma populations generates electrical currents which perturb the local magnetic fields. <strong>The aim of my dissertation research is to develop an adaptable computational model which can represent this complex plasma interaction and all its variability in response to the changing conditions of the magnetosphere as well as variations in Europa's atmosphere.</strong>
+
+Many space plasmas can be effectively modeled as if the ensemble of discrete charged particles was a continuous charged fluid. This mathematical approximation is known as magnetohydrodynamics (MHD). MHD modeling of space plasmas is an area of rich, active research spanning many research groups across the world. At the University of Michigan, the [Center for Space Environment Modeling](http://csem.engin.umich.edu/) has developed the MHD code BATS-R-US. With the advanced computing capabilities provided by modern supercomputers, BATS-R-US has been used to effectively model large, complex space plasma systems such as the magnetospheres of Jupiter and Saturn, as well as the interaction between comets and the solar wind. We have used BATS-R-US to develop our model for Europa’s plasma interaction.
+
+A similar MHD model for Europa’s plasma interaction has already helped to find [evidence for water plumes](https://www.nasa.gov/press-release/old-data-reveal-new-evidence-of-europa-plumes). This multi-fluid model will focus on discerning the roles of different plasma populations in the interaction.
+
+What’s Next?
+------
+One application for this model is to help determine the properties of Europa’s subsurface ocean. When the Galileo spacecraft observed the magnetic fields near Europa they found evidence for an induced magnetic field generated by electrical currents in Europa’s conducting ocean. The properties of the ocean which produce it can be determined by characterizing that magnetic field more precisely. However, the induced magnetic field was measured in the presence of magnetic signatures of the plasma interaction. Because the plasma interaction magnetic fields are variable, untangling them from the induced field is a complicated task.
+
+NASA’s upcoming [Europa Clipper Mission](https://www.jpl.nasa.gov/missions/europa-clipper/) seeks to use Europa’s induced field to learn the properties of the subsurface ocean. By developing a sophisticated MHD model for the plasma interaction we will be able to predict how the plasma interaction magnetic fields will interfere with the induced magnetic fields, enabling the induced field to be identified in Europa Clipper’s magnetometer data.
+
+Learn More
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+  * [NASA Science/Solar System Exploration/Europa](https://solarsystem.nasa.gov/moons/jupiter-moons/europa/in-depth/)
+  * [CU Boulder/LASP/Magnetospheres of the Outer Planets Group](http://lasp.colorado.edu/home/mop/home/why-study-magnetospheres/)
+  * [NASA/Galileo](https://solarsystem.nasa.gov/missions/galileo/in-depth/)
+  * [NASA/Europa Clipper](https://www.jpl.nasa.gov/missions/europa-clipper/)
+  * [ESA/JUICE](http://sci.esa.int/juice/)
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
-
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
-
-**Markdown generator**
-
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
